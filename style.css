@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    margin: 8px ;
+}
+
+@font-face {
+    font-family: "gato";
+    src: url(fontes/Galaxy_dingbats-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gato {
+    background-color: white;
+    font-family: "gato";
+    font-size: 5em;
+    width: 1em;
+    height: 1em;
+    margin: 0px;
+}
+
+#gato1 {
+    position: relative;
+    top: 1em;
+    left: 0.5em;
+}
+
+#gato2 {
+    position: relative;
+    top: 4em;
+    left: 3em;
+}
+
+#gato3 {
+    position: relative;
+    bottom: 3em;
+    left: 13em;
+}
+
+@font-face {
+    font-family: "normal";
+    src: url(fontes/BebasNeue-Regular.otf) format("opentype"), 
+    url(fontes/BebasNeue-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "assinatura";
+    src: url(fontes/RenathaSignature.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fight";
+    src: url(fontes/FIGHTBACK.otf) format("opentype"), 
+    url(fontes/FIGHTBACK.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#div-principal {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70vw;
+    min-width: 800px;
+}
+
+#div-titulo {
+    text-align: center;
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#h1-titulo {
+    font-size: 5em;
+    font-family: "fight";
+    color: white;
+    margin: 0px;
+}
+
+#p-titulo {
+    font-size: 3em;
+    font-family: "assinatura";
+    color: white;
+    margin: 0px auto;
+    max-width: 20em;
+}
+
+#div-senha {
+    text-align: center;
+    flex: 0.6 1 0%;
+}
+
+#senha {
+    padding: 0.3em;
+    margin: 0.5em;
+}
+
+.botao-senha {
+    margin-bottom: 1em;
+    font-size: 12.5px;
+    font-family: "normal";
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border: 4px double white;
+}
+
+#p-senha {
+    font-family: "normal";
+    font-size: larger;
+    margin: 0px auto;
+    color: white;
+}
