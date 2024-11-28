@@ -1,5 +1,5 @@
 #body-index {
-    background-color: #EBA7AC;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,13 +26,6 @@
 @font-face {
     font-family: "assinatura";
     src: url(fontes/RenathaSignature.otf) format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "amor";
-    src: url(fontes/love\ larry\ ttf.ttf) format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -98,31 +91,31 @@
 }
 
 .input {
-    border: 4px solid white;
+    border: 4px ridge white;
     color: white;
-    background-color: #CD5E77;
+    background-color: black;
 }
 
 .botao-senha {
     font-size: 12.5px;
     font-family: "normal";
-    background-color: #CD5E77;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 0.5em 1em;
     cursor: pointer;
-    border: 4px solid white;
+    border: 4px double white;
 }
 
 .botao-senha:hover {
     background-color: white;
-    color: #CD5E77;
+    color: black;
     transform: scale(1.05);
 }
 
 #p-senha {
-    font-family: "amor";
-    font-size: 3rem;
+    font-family: "normal";
+    font-size: larger;
     margin: 0px auto;
     color: white;
 }
@@ -135,7 +128,7 @@
 }
 
 .gato {
-    /* background-color: white; */
+    background-color: white;
     font-family: "gato";
     font-size: 5em;
     width: 1em;
@@ -146,28 +139,21 @@
 #gato1 {
     position: relative;
     bottom: 3em;
-    right: 7em;
+    right: 2em;
     z-index: -1;
 }
 
 #gato2 {
     position: relative;
-    bottom: 4em;
-    left: 8em;
+    top: 3em;
+    left: 3em;
     z-index: -1;
 }
 
 #gato3 {
     position: relative;
-    bottom: 2.5em;
-    left: 0em;
-    z-index: -1;
-}
-
-#gato4 {
-    position: relative;
-    top: 2em;
-    right: 8em;
+    bottom: 2.217em;
+    left: 3em;
     z-index: -1;
 }
 
@@ -230,14 +216,14 @@ pagina principal
 */
 
 #body-principal {
-    background-color: #EBA7AC;
+    background-color: black;
 }
 
 
 .botao-sair, .botao-elencos {
     font-size: 1rem;
     font-family: "normal";
-    background-color: #CD5E77;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 0.75em 1.5em;
@@ -248,12 +234,12 @@ pagina principal
 
 .botao-sair:hover, .botao-elencos:hover {
     background-color: white;
-    color: #CD5E77;
+    color: black;
     transform: scale(1.05);
 }
 
 .header {
-    background-color: #E17F93;
+    background-color: black;
     padding: 0.5em 1em;
     width: 95%; 
     margin: auto;
@@ -267,7 +253,7 @@ pagina principal
 
 #h1-titulo-principal {
     font-size: 2em;
-    font-family: "amor";
+    font-family: "fight";
     color: white;
     margin: 0;
     text-align: center;
