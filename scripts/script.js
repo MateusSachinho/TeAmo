@@ -3,20 +3,20 @@ const select = document.querySelector('.select-elencos')
 
 const verificaSenha = () => {
     const entrada = document.getElementById("Senha").value
-    const senha = "1d8557cc74f52fa41ba7f803573e04ba59ec1dadc9a31c669d4f535c61df909d"
+    const senha = "b1d5fcbd5e9f279b74640d03004b1ed8bb78e7a7c27a260d6294db9d63fd4e3b"
     
     if (senha === hex_sha256(entrada)) {
         sessionStorage.setItem("logado", "sim")
-        alert("Senha correta. Logado")
+        alert("Data do dia mais feliz da minha vida")
         window.location = "principal.html"
     } else {
-        alert("Senha incorreta.")
+        alert("Não creio que você errou")
     }
 }
 
 document.getElementById("Sair").onclick = () => {
     sessionStorage.removeItem("logado")
-    alert("Saiu")
+    alert("Já tá indo amor?")
     window.location = "index.html"
 }
 
