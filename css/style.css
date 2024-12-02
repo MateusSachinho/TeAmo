@@ -205,6 +205,12 @@
         left: 0em;
     }
 
+    #gato4 {
+        position: relative;
+        bottom: 0em;
+        left: 0em;
+    }
+
     .gato {
         background-color: white;
         font-family: "gato";
@@ -301,34 +307,12 @@ pagina principal
 }
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
     #h1-titulo-principal {
         font-size: 1.5em;
         font-family: "amor";
         color: white;
         margin: 0;
         text-align: center;
-=======
-    .botoes-elencos {
-        display: none;
-    }
-
-    .select-elencos {
-        margin-top: 16px;
-        display: block;
-        width: 80%;
-        max-width: 300px;
-        padding: 0.75em 1.5em;
-        font-size: 1rem;
-        font-family: "normal";
-        background-color: black;
-        color: white;
-        border: 4px double white;
-        appearance: none;
-        background-image: url('data:image/svg+xml;utf8,<svg fill="%23ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
-        background-repeat: no-repeat;
-        background-position: right 10px center;
->>>>>>> d7775cb2a002b241706ced1c8be43bd05af109f4
     }
 }
 
