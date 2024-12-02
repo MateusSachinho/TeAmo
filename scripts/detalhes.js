@@ -20,3 +20,4 @@ document.getElementById("Sair").onclick = () => {
     alert("Saiu")
     window.location = "index.html"
 }
+
