@@ -207,12 +207,11 @@
 
     #gato4 {
         position: relative;
-        bottom: 0em;
-        left: 0em;
+        top: 0em;
+        right: 0em;
     }
 
     .gato {
-        background-color: white;
         font-family: "gato";
         font-size: 3em;
         width: 1em;
